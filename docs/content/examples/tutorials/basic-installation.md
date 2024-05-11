@@ -182,7 +182,7 @@ In this setup DMS is not intended to receive email from the outside world, so no
 
 4. Get an SSL certificate, [we have a guide for you here][docs-ssl] (_Let's Encrypt_ is a popular service to get free SSL certificates).
 
-5. Start DMS and check the terminal output for any errors: `docker compose up`.
+5. Start DMS and check the terminal output for any errors: `docker compose up -d`.
 
 6. Create email accounts and aliases:
 
